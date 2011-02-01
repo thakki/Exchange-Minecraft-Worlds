@@ -1,8 +1,9 @@
-v0.0.1
-- export Minecraft Worlds to rar-archive
-- import Minecraft Worlds from rar-archive
-- upload archive to ftp-server
-- download archive from ftp-server
+VERSION INFO:
+  v0.0.1
+  - export Minecraft Worlds to rar-archive
+  - import Minecraft Worlds from rar-archive
+  - upload archive to ftp-server
+  - download archive from ftp-server
 
 FILES:
 - export_minecraft.rb
