@@ -1,0 +1,46 @@
+v0.0.1
+- export Minecraft Worlds to rar-archive
+- import Minecraft Worlds from rar-archive
+- upload archive to ftp-server
+- download archive from ftp-server
+
+FILES:
+- export_minecraft.rb
+  This script uses Winrar to generate a rar archive of
+  the specified world
+- import_minecraft.rb
+  This script uses Winrar to extract the specified archive
+  which should contain a Minecraft world
+- updown_minecraft.rb
+  This scripts provides the ftp-functionality
+- transfer_minecraft.rb
+  Main script which uses the above mentioned scripts and
+  provides the user with the complete functionality of
+  exchanging minecraft worlds
+  
+INSTALLATION:
+- install ruby (http://www.ruby-lang.org)
+- install WinRar (http://www.winrar.de)
+- extract all files to one directory
+- edit transfer_minecraft and set needed paths
+  winrar_path:    path to WinRar commandline tools
+  minecraft_path: path to Minecraft worlds
+  save_path:      path where the archives should be saved
+- edit updown_minecraft and set needed ftp data
+
+USAGE:
+- open windows command prompt
+- change to directory where the scripts are located
+- type: ruby transfer_minecraft "type" "world_name"
+  NOTE: 1. you must replace "type" by 'up' or 'down'
+           up   = export world an upload it
+           down = download world an import it
+        2. you must replace "world_name" with the name of
+           - the world you want to export
+           - the archive name to download and extract
+
+KNOW ISSUES:
+- none
+
+CONTACT:
+mail@skastens.de           
