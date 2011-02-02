@@ -1,4 +1,7 @@
 VERSION INFO:
+  v0.0.2
+  - added support for win64bit
+  
   v0.0.1
   - export Minecraft Worlds to rar-archive
   - import Minecraft Worlds from rar-archive
@@ -24,6 +27,9 @@ INSTALLATION:
 - make sure you have OpenSSL installed (http://www.openssl.org)
 - install WinRar (http://www.winrar.de)
 - extract all files to one directory
+- rename either curl32.exe or curl64.exe to curl.exe
+  32 = 32bit OS
+  64 = 64bit OS
 - edit transfer_minecraft and set needed paths
   winrar_path:    path to WinRar commandline tools
   minecraft_path: path to Minecraft worlds
@@ -43,7 +49,6 @@ USAGE:
 
 KNOWN ISSUES:
 - doesn't work properly with Windows Command Prompt
-- missing support for win64
 
 CONTACT:
 mail(at)skastens(dot)de           
