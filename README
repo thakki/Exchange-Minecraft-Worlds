@@ -32,10 +32,10 @@ INSTALLATION:
 USAGE:
 - open windows command prompt
 - change to directory where the scripts are located
-- type: ruby transfer_minecraft "type" "world_name"
+- type: ruby transfer_minecraft.rb "type" "world_name"
   NOTE: 1. you must replace "type" by 'up' or 'down'
-           up   = export world an upload it
-           down = download world an import it
+           export   = export world an upload it
+           import = download world an import it
         2. you must replace "world_name" with the name of
            - the world you want to export
            - the archive name to download and extract
