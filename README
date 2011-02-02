@@ -34,7 +34,7 @@ USAGE:
 - change to directory where the scripts are located
 - type: ruby transfer_minecraft.rb "type" "world_name"
   NOTE: 1. you must replace "type" by 'up' or 'down'
-           export   = export world an upload it
+           export = export world an upload it
            import = download world an import it
         2. you must replace "world_name" with the name of
            - the world you want to export

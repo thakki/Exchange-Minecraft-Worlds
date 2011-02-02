@@ -16,14 +16,10 @@ else
   type = ARGV[0].chomp
   minecraft_world = ARGV[1].chomp
   if type == "import"
-    puts "downloading #{minecraft_world}"
     transfer_mc("down", "#{minecraft_world}.rar")
-    puts "importing #{minecraft_world}"
     import_mc(minecraft_path, winrar_path, Dir.pwd, minecraft_world)
   elsif type == "export"
-    puts "exporting #{minecraft_world}"
     export_mc(minecraft_path, winrar_path, save_path, minecraft_world)
-    puts "uploading #{minecraft_world}"
     transfer_mc("up", "#{save_path}\\#{minecraft_world}.rar")
   else
     puts "Fail"
