@@ -40,7 +40,7 @@ USAGE:
 - open windows command prompt
 - change to directory where the scripts are located
 - type: ruby transfer_minecraft.rb "type" "world_name"
-  NOTE: 1. you must replace "type" by 'up' or 'down'
+  NOTE: 1. you must replace "type" by 'export' or 'import'
            export = export world an upload it
            import = download world an import it
         2. you must replace "world_name" with the name of
