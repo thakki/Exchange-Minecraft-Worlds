@@ -21,6 +21,7 @@ FILES:
   
 INSTALLATION:
 - install ruby (http://www.ruby-lang.org)
+- make sure you have OpenSSL installed (http://www.openssl.org)
 - install WinRar (http://www.winrar.de)
 - extract all files to one directory
 - edit transfer_minecraft and set needed paths
@@ -41,7 +42,8 @@ USAGE:
            - the archive name to download and extract
 
 KNOWN ISSUES:
-- none
+- doesn't work properly with Windows Command Prompt
+- missing support for win64
 
 CONTACT:
 mail(at)skastens(dot)de           
